@@ -3,7 +3,7 @@ package atu.ie;
 public interface MenuItem {
     String getName();
 
-    String getPrice();
+    double getPrice();
 
     String getDescription();
 }
