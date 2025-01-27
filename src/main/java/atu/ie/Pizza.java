@@ -1,6 +1,6 @@
 package atu.ie;
 
-public class Pizza {
+public class Pizza implements MenuItem{
     private String name;
 
     private double price;
@@ -23,6 +23,10 @@ public class Pizza {
     }
 
     public String getIngredients() {
+        return ingredients;
+    }
+
+    public String getDescription() {
         return ingredients;
     }
 }
