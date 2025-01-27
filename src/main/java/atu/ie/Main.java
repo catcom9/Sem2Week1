@@ -12,6 +12,7 @@ public class Main {
         Burger veggie = new Burger("Veggie Burger", 2.99, "Veggie Burger, Lettuce, tomato");
         Pizza Tuna = new Pizza("Tuna pizza", 3.43, "Chesse, Tuna, Tomato Sause");
         Salad caesarSalad = new Salad("Caesar Salad", 4.3, "Salad");
+        Desert icecream = new Desert("Ice cream", 44.3, "Toffee");
 
 
         //List all the food items like burgers, pizzas, fries, etc
@@ -19,6 +20,7 @@ public class Main {
         items.add(veggie);
         items.add(Tuna);
         items.add(caesarSalad);
+        items.add(icecream);
 
         double totalPrice = 0;
         for(MenuItem item : items){
